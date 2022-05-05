@@ -1,0 +1,13 @@
+"Order ID","Order Increment ID","QTY Ordered","Product ID","Product Quantity","Product Unit Price","Product Base Price","Product Discount Amount","Product Total Amount","Customer ID","Email ID","Store Name","Extract Date"
+3000001,11,2.0000,8827,2.0000,29999.0000,29999.0000,0.0000,59998.0000,,chen@mexico.com,"Main Website
+Tienda HP Online 
+P",12-11-2019, Santa Fe
+3000002,11,2.0000,8827,2.0000,29999.0000,29999.0000,0.0000,59998.0000,,chen@mexico.com,"Main Website
+Tienda HP Online 
+P",12-11-2019, Santa Fe
+3000003,11,2.0000,8827,2.0000,29999.0000,29999.0000,0.0000,59998.0000,,chen@mexico.com,"Main Website
+Tienda HP Online 
+P",12-11-2019, Santa Fe
+3000004,11,2.0000,8827,2.0000,29999.0000,29999.0000,0.0000,59998.0000,,chen@mexico.com,"Main Website
+Tienda HP Online 
+P",12-11-2019, Santa Fe

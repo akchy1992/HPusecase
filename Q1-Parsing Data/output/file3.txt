@@ -1,0 +1,3 @@
+cid	pres_give_nm	pres_last_nm	email_add_nm	addr_country_cd	home_address_valid	model_id	model_name	product_line_id	registration_code	prod_serial_id	service_id_cd	invoice_amount
+111000	Testgivenname	TestLastName	12345@gmail.com	SG	999	K4T99B	HP DeskJet 3630 All-in-One Printer	2N	004	CN568R	26121	0
+111000	Testgivenname	TestLastName	12345@gmail.com	SG	999	K4T99B2	HP DeskJet 3630 All-in-One Printer	2N	004	CN568RA	26121	0

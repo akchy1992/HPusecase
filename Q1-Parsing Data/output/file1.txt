@@ -1,0 +1,5 @@
+orderid	order_increment_id	qty_ordered	product.product_id	product.product_quantity	product.product_unit_price	product.product_base_price	product.product_discount_amount	product.product_total_amount	product.customer_id	product.email_id	product.store_name	product.extract_date	
+3000001	null	1	8827	1	29999	29999	0	29999	null	chen@mexico.com	Tienda HP Online P	12-11-2019	
+3000001	null	1	8827	1	29999	29999	0	29999	null	chen@mexico.com	Tienda HP Online P	12-11-2019	
+3000002	null	1	8827	1	29999	29999	0	29999	null	chen@mexico.com	Tienda HP Online P	12-11-2019	
+3000002	null	1	8827	1	29999	29999	0	29999	null	chen@mexico.com	Tienda HP Online P	12-11-2019	

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bmo:bulkMessage xsi:schemaLocation="http://emf.fai.hp.com/datatype/inf/bulkOutbound http://g1u1123c.austin.hpicorp.net:30100/schemasWebApp/emf/datatype/inf/bulkOutbound/BulkMessageOutbound.xsd"
+    xmlns:dt="http://emf.fai.hp.com/datatype/common"
+    xmlns:bmo="http://emf.fai.hp.com/datatype/inf/bulkOutbound"
+    xmlns:sim="http://emf.fai.hp.com/datatype/inf/singleInbound"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <bmo:bulkHeader>
+        <dt:messageTopic>isac_customer_product_data</dt:messageTopic>
+        <dt:batchID>2048418</dt:batchID>
+    </bmo:bulkHeader>
+    <bmo:message>
+        <bmo:header/>
+        <dt:payload><![CDATA[ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>]]>
+            <ns1:customer_master xmlns:ns1="http://isac.hp.com/schema/isac"
+                xmlns:ckm="http://isac.hp.com/schema/ckm">
+                <ns1:customer_identity>
+                    <ns1:source>
+                        <ns1:app_cust_id/>
+                    </ns1:source>
+                    <ns1:master>
+                        <ns1:cust_id/>
+                        <ns1:cid>111000</ns1:cid>
+                    </ns1:master>
+                </ns1:customer_identity>
+                <ns1:customer_core>
+                    <ckm:customer_personal_data_block>
+                        <ckm:name_group ckm:last_update_dt="08/30/2019 12:43:28 PM">
+                            <ckm:pers_give_nm>Testgivenname</ckm:pers_give_nm>
+                            <ckm:pers_last_nm>TestLastName</ckm:pers_last_nm>
+                        </ckm:name_group>
+                        <ckm:e_mail_address_group ckm:create_dt="01/11/2019 05:35:38 PM">
+                            <ckm:email_add_nm>12345@gmail.com</ckm:email_add_nm>
+                            <ckm:email_valid_yn>1</ckm:email_valid_yn>
+                        </ckm:e_mail_address_group>
+                        <ckm:business_address_group ckm:create_dt="01/11/2019 08:22:36 PM"/>
+                        <ckm:home_address_group ckm:create_dt="01/11/2019 05:35:38 PM">
+                            <ckm:addr_country_cd>SG</ckm:addr_country_cd>
+                            <ckm:home_address_valid>999</ckm:home_address_valid>
+                        </ckm:home_address_group>
+                        <ckm:mobile_phone_number_group/>
+                        <ckm:fax_number_group/>
+                        <ckm:personal_id_no/>
+                        <ckm:hut_insertion_flag_customer/>
+                    </ckm:customer_personal_data_block>
+                    <ckm:customer_valuation_segment_block_customer>
+                        <ckm:segment_nm>002</ckm:segment_nm>
+                        <ckm:customer_valuation_segment/>
+                    </ckm:customer_valuation_segment_block_customer>
+                </ns1:customer_core>
+                <ns1:product_registrations>
+                    <ns1:prod_reg ckm:create_dt="01/11/2019 05:35:38 PM">
+                        <ckm:product_identification_block>
+                            <ckm:product_model_group ckm:create_dt="01/11/2019 05:35:38 PM">
+                                <ckm:model_id>K4T99B</ckm:model_id>
+                                <ckm:model_name>HP DeskJet 3630 All-in-One Printer</ckm:model_name>
+                                <ckm:product_line_id>2N</ckm:product_line_id>
+                                <ckm:registration_code>004</ckm:registration_code>
+                            </ckm:product_model_group>
+                            <ckm:prod_serial_id>CN568R</ckm:prod_serial_id>
+                            <ckm:service_id_cd>26121</ckm:service_id_cd>
+                        </ckm:product_identification_block>
+                        <ckm:product_purchase_process_block/>
+                        <ckm:product_information_block>
+                            <ckm:product_ownership_status_group>
+                                <ckm:reason_prod_not_owned/>
+                            </ckm:product_ownership_status_group>
+                            <ckm:hut_insertion_flag_product/>
+                        </ckm:product_information_block>
+                        <ckm:customer_owner_usage_block_product>
+                            <ckm:segment_nm2>003</ckm:segment_nm2>
+                        </ckm:customer_owner_usage_block_product>
+                        <ckm:customer_valuation_segment_block_product>
+                            <ckm:printing_loyalty_program_group/>
+                        </ckm:customer_valuation_segment_block_product>
+                        <ckm:system_reference_block_product/>
+                        <ckm:company_pur_process_block/>
+                        <ckm:de_duping_block_product>
+                            <ckm:invoice_amount>0</ckm:invoice_amount>
+                        </ckm:de_duping_block_product>
+                        <ckm:product_campaign_mgmt_block>
+                            <ckm:product_offer_id_group/>
+                        </ckm:product_campaign_mgmt_block>
+                    </ns1:prod_reg>
+                    <ns1:prod_reg ckm:create_dt="01/11/2017 05:35:38 PM">
+                        <ckm:product_identification_block>
+                            <ckm:product_model_group ckm:create_dt="01/11/2019 05:35:38 PM">
+                                <ckm:model_id>K4T99B2</ckm:model_id>
+                                <ckm:model_name>HP DeskJet 3630 All-in-One Printer</ckm:model_name>
+                                <ckm:product_line_id>2N</ckm:product_line_id>
+                                <ckm:registration_code>004</ckm:registration_code>
+                            </ckm:product_model_group>
+                            <ckm:prod_serial_id>CN568RA</ckm:prod_serial_id>
+                            <ckm:service_id_cd>26121</ckm:service_id_cd>
+                        </ckm:product_identification_block>
+                        <ckm:product_purchase_process_block/>
+                        <ckm:product_information_block>
+                            <ckm:product_ownership_status_group>
+                                <ckm:reason_prod_not_owned/>
+                            </ckm:product_ownership_status_group>
+                            <ckm:hut_insertion_flag_product/>
+                        </ckm:product_information_block>
+                        <ckm:customer_owner_usage_block_product>
+                            <ckm:segment_nm2>003</ckm:segment_nm2>
+                        </ckm:customer_owner_usage_block_product>
+                        <ckm:customer_valuation_segment_block_product>
+                            <ckm:printing_loyalty_program_group/>
+                        </ckm:customer_valuation_segment_block_product>
+                        <ckm:system_reference_block_product/>
+                        <ckm:company_pur_process_block/>
+                        <ckm:de_duping_block_product>
+                            <ckm:invoice_amount>0</ckm:invoice_amount>
+                        </ckm:de_duping_block_product>
+                        <ckm:product_campaign_mgmt_block>
+                            <ckm:product_offer_id_group/>
+                        </ckm:product_campaign_mgmt_block>
+                    </ns1:prod_reg>
+                </ns1:product_registrations>
+            </ns1:customer_master>
+        </dt:payload>
+    </bmo:message>
+</bmo:bulkMessage>
